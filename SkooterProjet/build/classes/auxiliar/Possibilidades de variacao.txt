@@ -1,0 +1,85 @@
+/*  Movimentacao por quadrados
+
+
+    public void moveUp(){
+        if(podeMover){
+            podeMover = false;
+            
+            for(int i = 0; i<32; i++){
+                if(this.getY()<16){
+                    podeMover = true;
+                    return;
+                }
+                this.setY((this.getY()-1));
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(EntidadeMovel.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            podeMover = true;
+        }
+          
+    }
+    
+    public void moveDown(){
+        if(podeMover){
+            podeMover = false;
+            
+            for(int i = 0; i<32; i++){
+                if(this.getY()>335){
+                    podeMover = true;
+                    return;
+                }
+                this.setY((this.getY()+1));
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(EntidadeMovel.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            podeMover = true;
+        }  
+    }
+        
+    public void moveRight(){
+        if(podeMover){
+            podeMover = false;
+            
+            for(int i = 0; i<32; i++){
+                if(this.getX()>335){
+                    podeMover = true;
+                    return;
+                }
+                this.setX((this.getX()+1));
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(EntidadeMovel.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            podeMover = true;
+        } 
+            
+    }
+        
+    public void moveLeft(){
+        if(podeMover){
+            podeMover = false;
+            
+            for(int i = 0; i<32; i++){
+                if(this.getX()<16){
+                    podeMover = true;
+                    return;
+                }
+                this.setX((this.getX()-1));
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(EntidadeMovel.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            podeMover = true;
+        } 
+    }
+*/
